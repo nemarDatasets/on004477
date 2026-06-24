@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PES - Pandemic Emergency Scenario",
+  "description": "The Pandemic Emergency Scenario (PES) dataset comprises neurophysiological and behavioral data from 9 participants engaged in a complex resource allocation task during a simulated pandemic emergency. Participants, paired with an artificial agent, made sequential decisions about allocating limited medical resources across affected cities while reporting confidence in their choices. EEG recordings, electrocardiography, and electrooculography were collected simultaneously with behavioral responses across 64 experimental sequences.",
+  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 64 electrodes positioned according to the International 10-20 System, sampled at 2048 Hz. Eight additional external channels recorded electrocardiography (2 channels) and electrooculography (4 channels). Participants performed resource allocation decisions via mouse input over a 10-second response window, followed by a 5-second confidence rating phase using mouse wheel input.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,49 +13,6 @@
     "Caterina Cinel": {},
     "Riccardo Poli": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004477.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004477",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004477",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "UK Ministry of Defence (MOD) via funding from US/UK DoD BARI"
-    },
-    {
-      "funder_name": "UK Ministry of Defence",
-      "award_title": "US/UK DoD Bilateral Academic Research Initiative (BARI)"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".bdf",
-    ".json",
-    ".md",
-    ".tsv",
-    ".txt"
-  ],
-  "description": "The Pandemic Emergency Scenario (PES) dataset comprises neurophysiological and behavioral data from 9 participants engaged in a complex resource allocation task during a simulated pandemic emergency. Participants made sequential decisions about distributing limited medical resources across affected cities while paired with an artificial agent, with EEG recordings capturing neural activity during decision-making and confidence reporting. The dataset includes 64 experimental sequences per participant with synchronized behavioral markers and subjective confidence ratings.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 64 electrodes positioned according to the International 10-20 System, supplemented by 8 external channels (2 ECG, 4 EOG). Sampling rate was 2048 Hz. Participants sat approximately 1 meter from an LCD monitor and performed resource allocation decisions via mouse input over a 10-second response window, followed by a 5-second confidence rating phase using the mouse wheel.",
   "keywords": [
     {
       "term": "EEG"
@@ -76,10 +35,50 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "Electrooculography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
+      "term": "electrooculography"
     }
   ],
-  "source_hash": "ba0cdb1999f13a18818ede4a0f84ca94e83dd2e9985521a8e30c88d817eb1f71"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004477",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004477",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004477.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "UK Ministry of Defence (MOD) via funding from US/UK DoD BARI"
+    },
+    {
+      "funder_name": "UK Ministry of Defence",
+      "award_title": "US/UK DoD Bilateral Academic Research Initiative (BARI)"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "24.0 GB (19 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "source_hash": "1216d38ff5872a26b4fbaccb601ddc315474f5bcaaaed8ff066f2f1dd38d04fd"
 }
