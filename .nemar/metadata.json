@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004477",
+  "source": "openneuro",
+  "source_id": "ds004477",
+  "title": "PES - Pandemic Emergency Scenario",
+  "authors": {
+    "Tasos Papastylianou": {},
+    "Rodrigo Ramele": {},
+    "Luca Citi": {},
+    "Caterina Cinel": {},
+    "Riccardo Poli": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004477.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "UK Ministry of Defence (MOD) via funding from US/UK DoD BARI"
+    }
+  ],
+  "acknowledgements": "This research was supported by the Defence Science and Technology Laboratory (Dstl) on behalf of the UK Ministry of Defence (MOD) via funding from US/UK DoD Bilateral Academic Research Initiative (BARI)."
+}
