@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004477-blue)](https://doi.org/10.82901/nemar.on004477)
+
 Experiment:
 
 PES is a complex and strategic decision-making "Pandemic" Experiment. In this experiment, users were shown a map that gives a description of the spread of a pandemic emergency situation in various locations within the map. Resources (in terms, medicines, personnels) are allocated to few cities in the beginning. The user must allocate more resources to new cities that are displayed on the map. The user must keep in mind that the resources are limited and handing over all resources could mean that new cities (if displayed) might not get any resources.
