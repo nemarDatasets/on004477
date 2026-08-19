@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PES - Pandemic Emergency Scenario",
-  "description": "The Pandemic Emergency Scenario (PES) dataset comprises neurophysiological and behavioral data from 9 participants engaged in a complex resource allocation task during a simulated pandemic emergency. Participants, paired with an artificial agent, made sequential decisions about allocating limited medical resources across affected cities while reporting confidence in their choices. EEG recordings, electrocardiography, and electrooculography were collected simultaneously with behavioral responses across 64 experimental sequences.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 64 electrodes positioned according to the International 10-20 System, sampled at 2048 Hz. Eight additional external channels recorded electrocardiography (2 channels) and electrooculography (4 channels). Participants performed resource allocation decisions via mouse input over a 10-second response window, followed by a 5-second confidence rating phase using mouse wheel input.",
+  "description": "This dataset contains EEG and behavioural data from 9 participants performing a complex decision-making task simulating a pandemic emergency resource-allocation scenario. Participants, paired with an artificial agent, allocated resources across 64 sequences while EEG, ECG, and EOG signals were recorded, along with their subjective confidence in each decision. The dataset is intended to support research into neurophysiological correlates of strategic decision-making under uncertainty.",
+  "methods_description": "Each participant wore a 64-channel Biosemi ActiveTwo EEG system with wet electrodes placed according to the International 10-20 System, plus 8 additional external channels (2 ECG, 4 EOG). EEG data were sampled at 2048 Hz. Participants sat about 1 meter from an LCD monitor and performed resource-allocation decisions using mouse press, drag, and release actions, followed by a confidence report via mouse wheel movement.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,27 +15,27 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "decision-making"
-    },
-    {
-      "term": "resource allocation"
+      "term": "Clinical Decision-Making",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
     },
     {
       "term": "human-machine teaming"
     },
     {
+      "term": "EOG"
+    },
+    {
+      "term": "ECG"
+    },
+    {
       "term": "confidence judgment"
-    },
-    {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
-    },
-    {
-      "term": "electrooculography"
     }
   ],
   "related_identifiers": [
@@ -45,14 +45,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004477",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004477.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004477",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -60,7 +60,7 @@
       "funder_name": "UK Ministry of Defence (MOD) via funding from US/UK DoD BARI"
     },
     {
-      "funder_name": "UK Ministry of Defence",
+      "funder_name": "UK Ministry of Defence (MOD)",
       "award_title": "US/UK DoD Bilateral Academic Research Initiative (BARI)"
     }
   ],
