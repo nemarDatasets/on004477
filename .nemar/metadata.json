@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PES - Pandemic Emergency Scenario",
-  "description": "This dataset contains EEG and behavioural data from 9 participants performing a complex decision-making task simulating a pandemic emergency resource-allocation scenario. Participants, paired with an artificial agent, allocated resources across 64 sequences while EEG, ECG, and EOG signals were recorded, along with their subjective confidence in each decision. The dataset is intended to support research into neurophysiological correlates of strategic decision-making under uncertainty.",
-  "methods_description": "Each participant wore a 64-channel Biosemi ActiveTwo EEG system with wet electrodes placed according to the International 10-20 System, plus 8 additional external channels (2 ECG, 4 EOG). EEG data were sampled at 2048 Hz. Participants sat about 1 meter from an LCD monitor and performed resource-allocation decisions using mouse press, drag, and release actions, followed by a confidence report via mouse wheel movement.",
+  "description": "EEG dataset from a complex, strategic decision-making pandemic emergency scenario in which nine participants, paired with an artificial agent, allocated limited resources (medicines, personnel) to cities shown on a map. Participants reported their confidence in each decision across 64 sequences. Recordings combine 64-channel EEG with ECG and EOG channels and behavioural responses, supporting research on decision making, confidence and human-machine teaming.",
+  "methods_description": "Participants sat about 1 m from an LCD monitor and wore a Biosemi ActiveTwo EEG cap with 64 wet electrodes in the international 10-20 system, plus eight external channels (two ECG, four EOG). Data were sampled at 2048 Hz. On each trial participants had 10 s to set the resource allocation with mouse press, drag and release. They then had 5 s to report confidence with the mouse wheel. Finally the other players' responses were shown for 2 s.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,27 +15,31 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "Clinical Decision-Making",
+      "term": "Decision Making",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    },
+    {
+      "term": "confidence"
     },
     {
       "term": "human-machine teaming"
     },
     {
-      "term": "EOG"
+      "term": "resource allocation"
     },
     {
-      "term": "ECG"
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "confidence judgment"
+      "term": "Electrooculography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
     }
   ],
   "related_identifiers": [
@@ -70,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "24.0 GB (19 files)"
+    "22.34 GB (19 files)"
   ],
   "formats": [
     ".bdf",
